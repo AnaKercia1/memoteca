@@ -1,0 +1,59 @@
+.acoes {
+    display: flex;
+    justify-content: flex-end
+  }
+  
+  .botao-excluir, 
+  .botao-editar ,
+  .botao-favorito {
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 15px;
+  }
+  
+  .pensamento {
+    background-color: #F8F9FE;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .pensamento .conteudo {
+    margin: 1rem auto;
+    word-wrap: break-word;
+  }
+  
+  .pensamento .autoria {
+    word-wrap: break-word;
+  }
+  
+  .modelo1 {
+    box-shadow: 8px 8px 0px #011b3b;
+  }
+  
+  .modelo2 {
+    box-shadow: 8px 8px 0px #62cbfc;
+  }
+  
+  .modelo3 {
+    box-shadow: 8px 8px 0px #35e69c;
+  }
+  
+  .pensamento-g {
+    width: 556px;
+  }
+  
+  .pensamento-p {
+    width: 262px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pensamento-g {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .pensamento-p {
+      width: 100%;
+    }
+  }
